@@ -1,0 +1,292 @@
+11,Hotels,1,1
+12,Motels,1,1
+21,Single Screen,2,1
+22,Multiplex,2,1
+31,Chemist Shop,3,1
+32,Laboratary,3,1
+33,Wholesale ,3,1
+41,Air Travel Agents,4,1
+42,Bus Travel Agents,4,1
+43,Train Travel Agents,4,1
+44,Bus Transport Services,4,1
+51,Ola,5,1
+52,Private,5,1
+53,Agency,5,1
+61,Kirana,6,1
+71,Agents,7,1
+72,Online Website,7,1
+81,Job Seeker,8,1
+82,Consultancy,8,1
+83,Employer,8,1
+91,Computer,9,1
+92,Mobile,9,1
+93,Electronics,9,1
+94,AC Repairs,9,1
+95,Refrigerators,9,1
+96,Other Apliances,9,1
+101,Domestic ,10,1
+102,International,10,1
+111,Dog Food,11,1
+112,Cat Food,11,1
+113,Pet Accessories,11,1
+114,Dog Hospital,11,1
+115,Vetenary Clinic,11,1
+121,Two Wheeler Spare Parts,12,1
+122,Four Wheeler Spare Parts,12,1
+123,Auto Garage,12,1
+124,Custom Cars,12,1
+131,Party Booking,13,1
+132,Hall Booking,13,1
+133,Catering Service,13,1
+134,Event Planner,13,1
+135,Wedding Planner,13,1
+141,Cargo & Shipping,14,1
+142,Logistic,14,1
+143,Movers & Packers,14,1
+144,Diesel Transporter,14,1
+145,Petroleum Tranporters,14,1
+151,Computer Training,15,1
+152,Tally,15,1
+153,Computer Language,15,1
+154,Soft Skill,15,1
+155,Spoken English,15,1
+156,Bank/PO/Clerk,15,1
+157,CAT Coaching,15,1
+158,XLAT Coaching,15,1
+159,ILETS /GRE/TOEFL,15,1
+1510,IIT,15,1
+1511,AIPMT,15,1
+1512,CET,15,1
+1513,GATE,15,1
+161,Commercial Propert Agents,16,1
+162,Residential Property Agents,16,1
+163,Consultants,16,1
+164,Joint Ventures,16,1
+165,Attornrneys,16,1
+171,Primary School,17,1
+172,ICSE School,17,1
+173,CBSE School,17,1
+174,BSEB School,17,1
+175,NIOS,17,1
+176,Engineering College,17,1
+177,Law College,17,1
+178,Management College,17,1
+179,Business College,17,1
+181,Bricks,18,1
+182,Sand,18,1
+183,Rods,18,1
+184,Cement,18,1
+185,Iron Wire,18,1
+186,Woods,18,1
+187,Wall Roofing,18,1
+188,Plyboard,18,1
+189,Marble & Tiles,18,1
+191,Law & Justice offices,19,1
+192,Insurance & Accident Claim,19,1
+193,Civil Lawyers,19,1
+194,Corporate Lawyers,19,1
+195,Criminal Lawyers,19,1
+196,Divorce Lawyers,19,1
+197,High Court Lawyers,19,1
+198,Legal Services,19,1
+199,Property Lawyers,19,1
+1910,Industrial Labour Lawyers,19,1
+201,Two Wheeler Loans,20,1
+202,Business Loans,20,1
+203,Four Wheeler Loans,20,1
+204,Education Loans,20,1
+205,Gold Loans,20,1
+206,Home Loans,20,1
+207,Mortage Loans,20,1
+208,Personal Loans,20,1
+209,Project Loans,20,1
+2010,Construction Loans,20,1
+2011,Plot Loans,20,1
+2012,Loans against Property,20,1
+211,Advertising Agencies,21,1
+212,Chartered Accountants,21,1
+213,Security Guards,21,1
+214,Professonal Makeup artist,21,1
+215,Finance & taxation services,21,1
+216,Foreign Exchange services,21,1
+217,Placement Consultancies,21,1
+218,Vastu Consultants,21,1
+221,Event Organisers,22,1
+222,Birthday perty organisers,22,1
+223,Party Organisers,22,1
+224,Wedding Organisers,22,1
+225,Kitty Party Organisers,22,1
+231,Job Training,23,1
+232,Corporate Training,23,1
+233,Banking Coaching,23,1
+234,CAT Coaching,23,1
+235,MAT Coaching,23,1
+236,RRB Coaching,23,1
+237,IBPS Coaching,23,1
+238,CTET Coaching,23,1
+239,NTSE Coaching,23,1
+2310,AMIE Coaching,23,1
+2311,NATA Coaching,23,1
+2312,CMAT Coaching,23,1
+2313,Spoken English,23,1
+2314,IIT Coaching,23,1
+2315,GATE Coaching,23,1
+2316,Programming Language,23,1
+2317,Tally Coaching,23,1
+2318,Medical Entrance,23,1
+2319,School College Tution,24,1
+241,ICSE School,24,1
+242,Matriculation Coaching,24,1
+243,Residential Coaching,24,1
+244,Acting School,24,1
+245,Play School,24,1
+246,Primary School,24,1
+251,B.E.College,25,1
+252,MBBS College,25,1
+253,Hotel Management ,25,1
+254,MBA,25,1
+255,Pharmacy,25,1
+256,Nursing College,25,1
+257,Distance Education,25,1
+261,AC Dealers,26,1
+262,Generator Dealers,26,1
+263,Fan Dealers,26,1
+264,Refrigerator Dealers,26,1
+265,TV Dealers,26,1
+266,Oven Dealers,26,1
+267,Music System Dealers,26,1
+268,Washing Machine Dealers,26,1
+269,Gyesers Dealers,26,1
+2610,CCTV Dealers,26,1
+2611,Modular Kitchen Dealers,26,1
+2612,Projector Dealers,26,1
+2613,Water Coolers Dealers,26,1
+2614,Security system Dealers,26,1
+271,Orthopedic,27,1
+272,Naturopathic,27,1
+273,Sinus Doctors,27,1
+274,Dentists,27,1
+275,Cardiologists,27,1
+276,Homeopathy Doctors,27,1
+277,Infertility Treatements,27,1
+278,Psychiatrists,27,1
+279,Psychologists,27,1
+2710,Thyroid specialists,27,1
+2711,Hair Transplant Surgeons,27,1
+2712,Cosmetic Surgeons,27,1
+2713,Hernia ,27,1
+281,Children Hospital,28,1
+282,Dialysis Centers,28,1
+283,IVF Hospitals,28,1
+284,Materinity Homes,28,1
+285,Multi Speciality Hospitals,28,1
+286,Cancer Hospitals,28,1
+287,Veterinary Hospital,28,1
+288,Eye Hospitals,28,1
+289,Goverments Hospital,28,1
+2810,General Hospital,28,1
+2811,Psychiatric Hospital,28,1
+2812,Neurology Hospitals,28,1
+2813,Orthohopedic Hospitals,28,1
+2814,Cardiology Hospitals,28,1
+291,Air Travel Agents,29,1
+292,Bus Travel Agents,29,1
+293,Train Travel Agents,29,1
+294,Bus Transport Services,29,1
+295,Tour Operators,29,1
+296,Adventure Tour Operators,29,1
+297,Honeymoon Tour,29,1
+298,Piligrimage Tour,29,1
+301,Beauty Parlour,30,1
+302,Bridal Makeup,30,1
+303,Beauty Parlour Training,30,1
+311,Gym,31,1
+312,Fitness Product,31,1
+313,Fitness Accessories,31,1
+321,5 Star Hotel,32,1
+322,3 Star Hotel,32,1
+323,Budget Hotel,32,1
+324,2 Star Hotel,32,1
+325,Motels,32,1
+331,Party Decorators,33,1
+332,Flower Decorators,33,1
+333,Stage Decorators,33,1
+334,Balloon Decorators,33,1
+335,Wedding Decorators,33,1
+336,Event Decorators,33,1
+341,Dance Class,34,1
+342,Guitar Class,34,1
+343,Music Class,34,1
+344,Singing Class,34,1
+351,Cyber Café,35,1
+352,Internet Connection,35,1
+353,Internet Services,35,1
+361,Bakery Cakes,36,1
+362,Order Cakes,36,1
+363,Special Cakes,36,1
+371,Electronics Shop,37,1
+372,Electronics Spare Parts,37,1
+373,Electronic Repair Services,37,1
+381,Online Recharge,38,1
+382,D2H Recharge,38,1
+383,Mobile Recharge,38,1
+384,Electricity Bill Recharge,38,1
+391,Baby Care Products,39,1
+392,Baby Sitter,39,1
+393,Baby Lotion,39,1
+394,Baby Soap,39,1
+395,Baby Pad,39,1
+401,Accidental Insurance,40,1
+402,Fire Insurane,40,1
+403,4 Wheeler Insurance,40,1
+404,2 Wheeler Insurance,40,1
+405,Home Insurance,40,1
+406,Life Insurance,40,1
+407,Medical Insurance,40,1
+408,Travel Insurance,40,1
+409,Project Insurance,40,1
+411,Credit Card,41,1
+412,Gold Credit Card,41,1
+413,Platinum Cerit Card,41,1
+421,Software Company,42,1
+422,Website Company,42,1
+423,Telecom Company,42,1
+424,Voip Providers,42,1
+425,Domestic BPO,42,1
+426,International BPO,42,1
+431,Manufacturer,43,1
+441,Private Pest Control,44,1
+442,Public Pest Control,44,1
+451,Mens Wear,45,1
+452,Womens Wear,45,1
+453,Shoes,45,1
+454,Faishon Mall,45,1
+455,Watches ,45,1
+456,Backpacks,45,1
+457,Jwellery Showroom,45,1
+461,Architects,46,1
+462,Interior Designers,46,1
+463,Building Contractors,46,1
+464,Painting Contractors,46,1
+465,Waterproofing Contractors,46,1
+466,Bedroom Interior Designers,46,1
+467,Home Interior Designers,46,1
+468,Office Interior Designers,46,1
+469,Textured Painting Contractors,46,1
+4610,Terrace Waterproofing ,46,1
+4611,Flooring Contractors,46,1
+4612,Swimming Pool Contractors,46,1
+4613,Blue Metal Gravel Suppliers,46,1
+4614,Wall Partition Dealers,46,1
+4615,Plumbers,46,1
+4616,Earthing,46,1
+4617,Carpenters,46,1
+4618,Home Furtinure  Rentels,46,1
+4619,Landscaping Contractors,46,1
+4620,Pile Contractors,46,1
+4621,Fixtures & Fitting Dealers,46,1
+4622,Electrical Contractors,46,1
+4623,Curtains & Blinds Dealers,46,1
+4624,Roofing Ceiling Contractors,46,1
+4625,Furtinure Dealers,46,1
+4626,Borewell Contractors,46,1

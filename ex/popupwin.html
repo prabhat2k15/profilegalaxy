@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+		#popupbox{
+margin: 0; 
+margin-left: 70%; 
+margin-right: 40%;
+margin-top: 300px; 
+padding-top: 10px; 
+width: 300; 
+height: 350px; 
+position: absolute; 
+z-index: 9; 
+font-family: arial; 
+visibility: hidden; 
+
+}
+#signup {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto 50px auto;
+    padding: 20px;
+    position: relative;
+    background: #fff url(data:image/png;base64,iVBORw0K[...]CYII=);
+    border: 1px solid #ccc;
+    border-radius: 3px;  
+}
+
+#signup::before, 
+#signup::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 2px;
+    right: 2px;
+    top: 0;
+    z-index: -1;
+    background: #fff;
+    border: 1px solid #ccc;         
+}
+
+#signup::after {
+    left: 4px;
+    right: 4px;
+    bottom: -5px;
+    z-index: -2;
+    box-shadow: 0 8px 8px -5px rgba(0,0,0,.3);
+}
+/*Heading*/
+#signup h1 {
+    position: relative;
+    font: italic 1em/3.5em 'trebuchet MS',Arial, Helvetica;
+    color: #999;
+    text-align: center;
+    margin-top:20px;
+}
+
+#signup h1::before,
+#signup h1::after{
+    content:'';
+    position: absolute;
+    border: 1px solid rgba(0,0,0,.15);
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+#signup h1::after{
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+}
+Using pseudo-elements (again) :)
+/*Form elements
+Not so much to say here. For the submit button, please notice the gradient transition workaround.*/
+::-webkit-input-placeholder {
+   color: #bbb;
+}
+
+:-moz-placeholder {
+   color: #bbb;
+}                       
+
+.placeholder{
+    color: #bbb; /* polyfill */
+}       
+
+#signup input{
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    *width: 518px; /* IE7 and below */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+}
+
+#signup input:focus{
+        outline: 0;
+        border-color: #aaa;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .3) inset;
+}       
+
+#signup button{
+    margin: 20px 0 0 0;
+    padding: 10px 8px;          
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #2493FF;
+    overflow: visible;
+    display: inline-block;
+    color: #fff;
+    font: bold 1.4em arial, helvetica;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.4);         
+    background-color: #2493ff;
+    background-image: linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0)); 
+    transition: background-color .2s ease-out;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .3),
+                0 1px 0 rgba(255, 255, 255, .5) inset;                               
+}
+
+#signup button:hover{
+    background-color: #7cbfff;
+        border-color: #7cbfff;
+}
+
+#signup button:active{
+    position: relative;
+    top: 3px;
+    text-shadow: none;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset;
+}
+#pass{
+    color: #bbb;
+    font: italic 1em/3.5em 'trebuchet MS',Arial, Helvetica;
+    text-decoration: none;
+}
+#pass:hover{
+    color: #aaa;
+    text-decoration: underline;
+}
+#new_account{
+    color: #bbb;
+    font: italic 1em/-3.5em 'trebuchet MS',Arial, Helvetica;
+    text-decoration: none;
+}
+#new_account:hover{
+    color: #aaa;
+    text-decoration: underline;
+}
+#close{
+	float:right;
+	margin-top:-14px;
+}
+#close a{
+	 color: #bbb;
+    font: italic 1em/3.5em 'trebuchet MS',Arial, Helvetica;
+	text-decoration:none;
+}
+#close a:hover{
+	color: #aaa;
+    text-decoration: underline;
+}
+
+</style>
+
+<script language="JavaScript" type="text/javascript">
+function login(showhide){
+if(showhide == "show"){
+    document.getElementById('popupbox').style.visibility="visible";
+}else if(showhide == "hide"){
+    document.getElementById('popupbox').style.visibility="hidden"; 
+}
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+function signup(showhide){
+if(showhide == "show"){
+    document.getElementById('popupbox1').style.visibility="visible";
+}else if(showhide == "hide"){
+    document.getElementById('popupbox1').style.visibility="hidden"; 
+}
+}
+</script>
+
+<body>
+<div id="popupbox"> 
+	<form id="signup" name="login" action="login.php" method="post">
+	<label id="close"><a id="close" href="javascript:login('hide');">Close</a></label>
+    <h1>Start doing cool stuff in seconds.</h1>
+    <input type="email" placeholder="Enter your email" name="useremail">
+    <input type="password" placeholder="Choose your password" name="password">                 
+    <button type="submit" name="submit" >Sign in Now!</button>  
+    <label><a href="#" id="pass">Forget your password?</a></label><br>
+	<label><a href="index.php?create_account" id="new_account">Create new account!</a></label>
+    <!--?php 
+      if(isset($_GET['empty']))
+      {?>
+        <script language="JavaScript" type="text/javascript">
+        document.getElementById('popupbox').style.visibility="visible";
+        </script>
+        <center style="color:red;"><?php echo @$_GET['empty'];?></center-->
+        <?php
+      
+    ?>
+	 <?php 
+      if(isset($_GET['Login']))
+      {?>
+        <script language="JavaScript" type="text/javascript">
+        document.getElementById('popupbox').style.visibility="visible";
+        </script>
+        <?php
+      }
+    ?>
+    </form>
+</div> <!--End of window-->
+<a href="javascript:login('show');" style="float:right;">Sign in</a>
+</body>
+</html>
